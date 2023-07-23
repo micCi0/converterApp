@@ -1,0 +1,87 @@
+#other{
+    margin: 10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+#other #option{
+    margin: 25px;
+      background-color: #e3b623;
+      padding: 24px;
+}
+#other #option .systems span , p , #other #option .log span , p{
+    font-size: 20px;
+    font-family: 'Inspiration', cursive;
+font-family: 'Josefin Sans', sans-serif;
+margin: 0 2px
+}
+#other #option .systems input , select , p{
+    margin: 0 0 7px;
+}
+#other #option .systems select{
+    padding: 3px 7px;
+    font-family: 'Inspiration', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 16px;
+outline: none;
+}
+#other #option .systems  input{
+    height: 1.7em;
+    outline: none;
+}
+#other #option .systems #convert-system , #other #option .log button{
+    display: block;
+    padding: 4px 7px;
+       background: rgb(176, 26, 15);
+       border: 1px solid rgb(176, 26, 15);
+       color: #fff;
+}
+#other #option .bmi h1 , #other #option .log h1 , #other #option .random h1{
+        font-family: 'Inspiration', cursive;
+font-family: 'Josefin Sans', sans-serif;
+margin: 0 0 14px;
+}
+#other #option .bmi input , #other #option .log input , #other #option .random input{
+    height: 1.7em;
+    outline: none;
+}
+#other #option .bmi input::placeholder{
+    color:#000;;
+}
+#other #option .bmi button ,  #other #option .random #randomBtn , #other #option .random #copyNumber , #sysCopy {
+    padding: 2.4px 7px;
+    background: rgb(176, 26, 15);
+    border: 1px solid rgb(176, 26, 15);
+    color: #fff;
+
+}#other #option .log button{
+    margin: 3% 0;
+}
+#other #option .random #copyNumber {
+    padding: 1px 7px;
+}
+#other #option .random #control{
+    margin: 2% 0;
+    display: none;
+}
+#logControl , #controlSys{
+    display: none;
+}
+@media(max-width:1400px){
+    #other #option .bmi h1 , #other #option .log h1 , #other #option .random h1{
+        font-size: 16px;
+    }
+    #other #option .systems span , p , #other #option .log span , p{
+        font-size: 14px;
+    }
+    #other #option .systems select{
+        font-size: 12px;
+    }
+    #other #option .bmi input , #other #option .log input , #other #option .random input{
+        font-size: 12px;
+    }
+    #other #option .systems #convert-system , #other #option .log button{
+        font-size: 12px;
+    }
+}

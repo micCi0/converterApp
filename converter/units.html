@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/units.css ">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <style>
+        
+       
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="home.html">
+            <div id="logo">Random<convert class="span" id="style">.net</convert></div>
+        </a>
+        <ul>
+          
+            <li>
+                <a href="units.html">Units</a>
+                <!-- units convert -->
+            </li>
+            <li>
+                <a href="Temperature.html">Temperature</a>
+            </li>
+            <li>
+                <a href="other.html">Other</a>
+                <!-- contain:binary , random number , bmi , log , kvadaratické rovnice ,hex ,    -->
+            </li>
+        </ul>
+        <div id="menu"><i class='bx bx-menu'></i></div>
+    </nav>
+    <div class="container">
+        <h1>Unit converter</h1>
+        <div class="conversion-form">
+            <label for="from">From:</label>
+            <select id="from">
+                <!-- Zde vložte možnosti pro výběr jednotek, např. metry, kilometry, centimetry, atd. -->
+            </select>
+
+            <label for="to">To:</label>
+            <select id="to">
+                <!-- Zde vložte možnosti pro výběr jednotek, např. metry, kilometry, centimetry, atd. -->
+            </select>
+
+            <input type="number" id="input-value" placeholder="Enter a value">
+
+            <button class="convert-btn" id="convert-btn">Convert</button>
+
+            <p id="result"> </p>
+        </div>
+    </div>
+
+    <script src="scripts/units.js"></script>
+    <script src="scripts/menu.js"></script>
+
+</body>
+
+</html>

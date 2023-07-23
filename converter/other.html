@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/other.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <nav>
+        <a href="home.html">
+            <div id="logo">Random<convert class="span" id="style">.net</convert></div>
+        </a>
+        <ul>
+          
+            <li>
+                <a href="units.html">Units</a>
+                <!-- units convert -->
+            </li>
+            <li>
+                <a href="Temperature.html">Temperature</a>
+            </li>
+            <li>
+                <a href="other.html">Other</a>
+                <!-- contain:binary , random number , bmi , log , kvadaratické rovnice ,hex ,    -->
+            </li>
+        </ul>
+        <div id="menu"><i class='bx bx-menu'></i></div>
+    </nav>
+    <section id="other">
+        <main id="option">
+            <div class="systems">
+                <span>From</span>
+                    <select name="" id="from">
+                        <option value="decimal">Decimal</option>
+                        <option value="binary">Binary</option>
+                        <option value="octal">Binary</option>
+                        <option value="hex">Hexadecimal</option>
+                    </select>
+                <span>To</span>
+                <select name="" id="to">
+                    <option value="binary">Binary</option>
+                    <option value="decimal">Decimal</option>
+                    <option value="octal">Binary</option>
+                    <option value="hex">Hexadecimal</option>
+                </select>
+                <p>Enter a decimal number</p>
+                <input type="number" name="" id="decimal">
+                <button id="convert-system">Convert</button>
+                    <div id="controlSys">
+                        <p id="resultText"></p>
+                        <button id="sysCopy">Copy</button>
+                    </div>
+               </div>
+        </main>
+        <main id="option">
+            <div class="bmi">
+                <h1>Calculate BMI</h1>
+                <input type="number" id="weight" placeholder="Your weight">
+                <input type="number" id="height" placeholder="Your height">
+                <button id="bmiCalc">Calculate</button><br>
+                <span id="bmiRes">
+                </span>
+            </div>
+        </main>
+        <main id="option">
+            <div class="log">
+                <h1>Log Calculate</h1>
+                <p>Value</p>
+                <input type="number" id="logNumber">
+                <p>Exponentiation</p>
+                <input type="number" id="eNumber">
+                <button id="logCalculate">Calculate</button>
+                <div id="logControl">
+                    <p id="logResult"></p>
+                    <button id="copyLog">Copy</button>
+                </div>
+                   
+            </div>
+        </main>
+        <main id="option">
+            <div class="random">
+                <h1>Random number</h1>
+                <input type="number" id="minNum" placeholder="Min value">
+                <input type="number" id="maxNum" placeholder="Max value">
+                <button id="randomBtn">Generate</button><br>
+                <div id="control">
+                    <span id="randomResult">Result</span> <button id="copyNumber">Copy</button>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="scripts/other.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+</html>

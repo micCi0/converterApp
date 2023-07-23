@@ -1,0 +1,85 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#e3b623;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.conversion-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+select,
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.convert-btn {
+    padding: 10px;
+    background-color:rgb(176, 26, 15);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+@media(max-width:1400px){
+    h1{
+        font-size: 26px;
+    }
+}
+@media(max-width:1300px){
+    .container{
+        max-width: 450px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    label{
+        font-size: 14px;
+    }
+    input , select {
+        padding: 5px;
+       font-size: 12px;
+    }
+    .convert-btn{
+        padding: 7px;
+    }
+}
+@media(max-width:1000px){
+    .container{
+        margin-top: 20%;
+    }
+}
+@media(max-width:500px){
+    .container{
+        max-width: 350px;
+    }
+}
